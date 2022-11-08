@@ -7,7 +7,8 @@ public class Funcionario
     public double Salario { get; set; }
     private double tipo; // 0 - Funcionario / 1 - Patrão / 
 
-    public double GetBonificacao()
+    // Com virtual pode ser reescrito
+    public virtual double GetBonificacao()
     {
         if (tipo == 1)
         {
@@ -19,5 +20,9 @@ public class Funcionario
     public Funcionario(int tipo)
     {
         this.tipo = tipo;
+    }
+    
+    public Funcionario()
+    {
     }
 }

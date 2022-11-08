@@ -2,7 +2,8 @@ namespace bytebank.ADM.Funcionarios;
 
 public class Diretor : Funcionario
 {
-    public double GetBonificacao()
+    // Reescreve metodo de classe pai ou classe Base
+    public override double GetBonificacao()
     {
         return this.Salario;
     }
