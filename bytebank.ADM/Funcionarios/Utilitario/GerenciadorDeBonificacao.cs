@@ -9,9 +9,11 @@ public class GerenciadorDeBonificacao
         this.TotalDeBonificacao += funcionario.GetBonificacao();
     }
     
+    /*
     // Sobrecarregar metodo
     public void Registrar(Diretor diretor)
     {
         this.TotalDeBonificacao += diretor.GetBonificacao();
     }
+    */
 }
