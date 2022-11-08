@@ -10,10 +10,6 @@ public class Funcionario
     // Com virtual pode ser reescrito
     public virtual double GetBonificacao()
     {
-        if (tipo == 1)
-        {
-            return this.Salario;
-        }
         return this.Salario * 0.10;
     }
 
