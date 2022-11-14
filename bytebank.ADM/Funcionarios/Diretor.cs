@@ -1,21 +1,14 @@
-namespace bytebank.ADM.Funcionarios;
 
-public class Diretor : Funcionario
+namespace bytebank.ADM.Funcionarios
 {
-    // Reescreve metodo de classe pai ou classe Base
-    public override double GetBonificacao()
+    public class Diretor:Funcionario
     {
-        // Usa base para usar o metodo da classe base -> Para não ser loop
-        return this.Salario + base.GetBonificacao();
-    }
-
-    public override double PremioSemestral()
-    {
-        return Salario + base.PremioSemestral();
-    }
-
-    public Diretor(string cpf):base(cpf)
-    {
-        
-    }
+        public string Nome { get; set; }
+        public string Cpf { get; set; }
+        public double Salario { get; set; }
+        public override double GetBonificacao()
+        {
+            return this.Salario + base.GetBonificacao();
+        }
+    }    
 }
