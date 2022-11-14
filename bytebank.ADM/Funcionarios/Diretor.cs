@@ -8,4 +8,9 @@ public class Diretor : Funcionario
         // Usa base para usar o metodo da classe base -> Para não ser loop
         return this.Salario + base.GetBonificacao();
     }
+
+    public override double PremioSemestral()
+    {
+        return Salario + base.PremioSemestral();
+    }
 }
