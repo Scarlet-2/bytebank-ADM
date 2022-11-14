@@ -13,4 +13,9 @@ public class Diretor : Funcionario
     {
         return Salario + base.PremioSemestral();
     }
+
+    public Diretor(string cpf):base(cpf)
+    {
+        
+    }
 }

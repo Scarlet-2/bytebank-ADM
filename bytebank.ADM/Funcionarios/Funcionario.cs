@@ -3,9 +3,8 @@ namespace bytebank.ADM.Funcionarios;
 public class Funcionario
 {
     public string Nome { get; set; }
-    public string Cpf { get; set; }
+    public string Cpf { get; private set; }
     public double Salario { get; set; }
-    private double tipo; // 0 - Funcionario / 1 - Patrão / 
     public int TotalDeFuncionarios { get; private set; }
 
     // Com virtual pode ser reescrito
@@ -19,12 +18,7 @@ public class Funcionario
         return Salario + (this.Salario * 0.20);
     }
 
-    public Funcionario(int tipo)
-    {
-        this.tipo = tipo;
-    }
-
-    public Funcionario()
+    public Funcionario(string cpf)
     {
         TotalDeFuncionarios++;
         // Feito para debug 
