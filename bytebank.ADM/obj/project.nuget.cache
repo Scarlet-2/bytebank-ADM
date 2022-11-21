@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MOrHxDhDZDo5x0MJh6SEI+1H7XKw07ysSaCzErI5iA7N2OruWizX0CnN+EZYCvFbHoxnZ58P6zzW7rnGafihKQ==",
+  "dgSpecHash": "kbZK3bJWU/BzGdrdLiuCqEC9yBTY4GFtckKrQF3w93rsUp1sM6QxWtoU8UBUP7QeNNrNRb0KhK2EI/mnuDlGcw==",
   "success": true,
   "projectFilePath": "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bytebank.ADM.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
