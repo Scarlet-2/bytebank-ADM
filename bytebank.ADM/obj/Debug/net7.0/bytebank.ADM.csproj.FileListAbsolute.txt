@@ -1,0 +1,15 @@
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bin/Debug/net7.0/bytebank.ADM
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bin/Debug/net7.0/bytebank.ADM.deps.json
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bin/Debug/net7.0/bytebank.ADM.runtimeconfig.json
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bin/Debug/net7.0/bytebank.ADM.dll
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bin/Debug/net7.0/bytebank.ADM.pdb
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.csproj.AssemblyReference.cache
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.AssemblyInfoInputs.cache
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.AssemblyInfo.cs
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.csproj.CoreCompileInputs.cache
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.dll
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/refint/bytebank.ADM.dll
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.pdb
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/bytebank.ADM.genruntimeconfig.cache
+/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/Debug/net7.0/ref/bytebank.ADM.dll
