@@ -1,5 +1,6 @@
 ﻿namespace bytebank.ADM.Funcionarios
 {
+    // Como se fosse um modelo abstrato
     public abstract class Funcionario
     {
         public string Nome { get; set; }
