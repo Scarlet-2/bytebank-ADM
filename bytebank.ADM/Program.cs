@@ -1,6 +1,7 @@
-﻿using bytebank_ADM.Funcionarios;
-using bytebank_ADM.Utilitario;
+﻿using bytebank.ADM.Funcionarios;
+using bytebank.ADM.Utilitario;
 
+// Para observação e comparação APENAS
 #region
 //Funcionario pedro = new Funcionario("123456789", 2000);
 //pedro.Nome = "Pedro malazartes";
@@ -30,33 +31,28 @@ using bytebank_ADM.Utilitario;
 //Console.WriteLine("Novo salário da Roberta: " + roberta.Salario);
 #endregion
 
-//CalcularBonificacao();
-
-
 void CalcularBonificacao()
 {
     GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-    Designer ulisses = new Designer("123456");
-    ulisses.Nome = "Ulisses Souza";
+    Designer marcelo = new Designer("132546");
+    marcelo.Nome = "Marcelo do Santos";
 
-    Diretor paula = new Diretor("987456");
-    paula.Nome = "Paula Souza";
+    Diretor paulo = new Diretor("987555");
+    paulo.Nome = "Paulo Oliveira";
 
-    Auxiliar igor = new Auxiliar("74581");
-    igor.Nome = "Igor Dias";
+    Auxiliar lucas = new Auxiliar("745667");
+    lucas.Nome = "Lucas Obedi";
 
-    GerenteDeContas camila = new GerenteDeContas("852963");
-    camila.Nome = "Camila Oliveira";
+    GerenteDeContas marcos = new GerenteDeContas("859049");
+    marcos.Nome = "Marcos Oliveira";
 
-    gerenciador.Registrar(camila);
-    gerenciador.Registrar(igor);
-    gerenciador.Registrar(paula);
-    gerenciador.Registrar(ulisses);
+    gerenciador.Registrar(marcos);
+    gerenciador.Registrar(lucas);
+    gerenciador.Registrar(paulo);
+    gerenciador.Registrar(marcelo);
 
     Console.WriteLine("Total de Bonificação = "+ gerenciador.TotalDeBonficacao);
-
-    //Funcionario pedro = new Funcionario("123456",852);
 }
 
 

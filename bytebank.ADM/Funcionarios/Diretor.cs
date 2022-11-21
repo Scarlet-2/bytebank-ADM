@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace bytebank_ADM.Funcionarios
+﻿namespace bytebank.ADM.Funcionarios
 {
     public class Diretor: Funcionario
     { 
@@ -16,7 +10,7 @@ namespace bytebank_ADM.Funcionarios
 
         public Diretor(string cpf):base(cpf,5000)
         {
-            //Console.WriteLine("Criando um diretor.");
+            
         }
 
         public override void AumentarSalario()
