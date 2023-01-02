@@ -1,8 +1,7 @@
-﻿using bytebank.ADM.Funcionarios;
-using bytebank.ADM.SistemaInterno;
-using bytebank.ADM.Utilitario;
+﻿using bytebank_ADM.Funcionarios;
+using bytebank_ADM.SistemaInterno;
+using bytebank_ADM.Utilitario;
 
-// Para observação e comparação APENAS
 #region
 //Funcionario pedro = new Funcionario("123456789", 2000);
 //pedro.Nome = "Pedro malazartes";
@@ -32,52 +31,52 @@ using bytebank.ADM.Utilitario;
 //Console.WriteLine("Novo salário da Roberta: " + roberta.Salario);
 #endregion
 
+//CalcularBonificacao();
 UsarSistema();
 
 void CalcularBonificacao()
 {
     GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-    Designer marcelo = new Designer("132546");
-    marcelo.Nome = "Marcelo do Santos";
+    Designer ulisses = new Designer("123456");
+    ulisses.Nome = "Ulisses Souza";
 
-    Diretor paulo = new Diretor("987555");
-    paulo.Nome = "Paulo Oliveira";
+    Diretor paula = new Diretor("987456");
+    paula.Nome = "Paula Souza";
 
-    Auxiliar lucas = new Auxiliar("745667");
-    lucas.Nome = "Lucas Obedi";
+    Auxiliar igor = new Auxiliar("74581");
+    igor.Nome = "Igor Dias";
 
-    GerenteDeContas marcos = new GerenteDeContas("859049");
-    marcos.Nome = "Marcos Oliveira";
+    GerenteDeContas camila = new GerenteDeContas("852963");
+    camila.Nome = "Camila Oliveira";
 
-    gerenciador.Registrar(marcos);
-    gerenciador.Registrar(lucas);
-    gerenciador.Registrar(paulo);
-    gerenciador.Registrar(marcelo);
+    gerenciador.Registrar(camila);
+    gerenciador.Registrar(igor);
+    gerenciador.Registrar(paula);
+    gerenciador.Registrar(ulisses);
 
     Console.WriteLine("Total de Bonificação = "+ gerenciador.TotalDeBonficacao);
+
+    //Funcionario pedro = new Funcionario("123456",852);
 }
 
 void UsarSistema()
 {
-    SistemaInterno sistemaInterno = new SistemaInterno();
+    SistemaInterno sistema = new SistemaInterno();
 
-    Diretor roberta = new Diretor("159.753.398-04");
-    roberta.Nome = "Roberta";
-    roberta.Senha = "123";
+    Diretor ingrid = new Diretor("852741");
+    ingrid.Nome = "Ingrid Novaes";
+    ingrid.Senha = "123";
 
-    GerenteDeContas ursula = new GerenteDeContas("326.985.628-89");
-    ursula.Nome = "Ursula";
+    GerenteDeContas ursula = new GerenteDeContas("963741");
+    ursula.Nome = "Ursula Alcantara";
     ursula.Senha = "321";
 
-    sistemaInterno.Logar(roberta, "123");
-    sistemaInterno.Logar(roberta, "321");
+    sistema.Logar(ingrid, "123");
+    sistema.Logar(ursula, "963");
+    
 
-    sistemaInterno.Logar(ursula, "123");
-    sistemaInterno.Logar(ursula, "321");
 }
-
-
 
 
 
