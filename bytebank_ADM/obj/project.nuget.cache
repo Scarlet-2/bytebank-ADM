@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CgAJawutK5mxr5OKBu/xR3mgvIAfzydvjoJ7PQ7I9CPjjWrpjm2tWuXFjrD0JPlu0DvLn11Y5jTdtmSptzqg4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus\\Unity\\Roguelike\\bytebank-ADM\\bytebank_ADM\\bytebank_ADM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
