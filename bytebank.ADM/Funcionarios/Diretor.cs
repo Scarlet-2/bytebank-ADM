@@ -24,9 +24,5 @@
         {
             return Senha == senha;
         }
-
-
     }
-
-    
 }

@@ -21,6 +21,9 @@ public class SistemaInterno
         }
     }
 
+    // Sobrecarga antiga
+    #region 
+    /*
     public bool Logar(GerenteDeContas funcionario, string senha)
     {
         bool usuarioAutenticado = funcionario.Autenticar(senha);
@@ -37,5 +40,6 @@ public class SistemaInterno
             return false;
         }
     }
-
+    */
+    #endregion
 }

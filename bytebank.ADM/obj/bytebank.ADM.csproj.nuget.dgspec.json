@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bytebank.ADM.csproj": {}
+    "C:\\Users\\Matheus\\RiderProjects\\bytebank-ADM\\bytebank.ADM\\bytebank.ADM.csproj": {}
   },
   "projects": {
-    "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bytebank.ADM.csproj": {
+    "C:\\Users\\Matheus\\RiderProjects\\bytebank-ADM\\bytebank.ADM\\bytebank.ADM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bytebank.ADM.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\RiderProjects\\bytebank-ADM\\bytebank.ADM\\bytebank.ADM.csproj",
         "projectName": "bytebank.ADM",
-        "projectPath": "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/bytebank.ADM.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/RiderProjects/bytebank.ADM/bytebank.ADM/obj/",
+        "projectPath": "C:\\Users\\Matheus\\RiderProjects\\bytebank-ADM\\bytebank.ADM\\bytebank.ADM.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus\\RiderProjects\\bytebank-ADM\\bytebank.ADM\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
