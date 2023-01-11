@@ -1,4 +1,5 @@
 ﻿using bytebank_ADM.Funcionarios;
+using bytebank_ADM.Parceira;
 using bytebank_ADM.SistemaInterno;
 using bytebank_ADM.Utilitario;
 
@@ -72,10 +73,11 @@ void UsarSistema()
     ursula.Nome = "Ursula Alcantara";
     ursula.Senha = "321";
 
+    ParceiroComercial caio = new ParceiroComercial();
+
     sistema.Logar(ingrid, "123");
     sistema.Logar(ursula, "963");
-    
-
+    sistema.Logar(caio, "999");
 }
 
 
